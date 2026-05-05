@@ -1,2 +1,42 @@
 # ENIGMA
-A secure messaging system implementing multiple encryption techniques (Caesar Cipher, Reverse Cipher) in C++ with support for layered encryption. Utilized data structures like queues, stacks, and linked lists for key management and processing, along with file handling for storing and retrieving encrypted messages and keys.
+ENIGMA is a secure messaging system developed as a semester project. It implements multiple classical encryption techniques with support for layered encryption to enhance message security. The system also manages encryption keys dynamically and supports secure file storage for encrypted data.
+
+## Features
+- Multiple encryption methods:
+-- Caesar Cipher
+-- Reverse Cipher
+- Multi-layer encryption and decryption support
+- Secure key management using data structures
+- File handling for storing encrypted messages and keys
+- User-based system for sending encrypted messages
+---
+
+## Technologies Used
+- C++
+- Data Structures:
+- Stack (for reversing / layered encryption)
+- Queue (for Caesar cipher processing)
+- Linked List (for dynamic key management)
+- File Handling
+---
+
+## How It Works
+- User inputs a message
+- Inputs encryption key
+- System applies layered encryption
+- Encrypted message is saved to file
+- Decryption retrieves original message using stored keys
+---
+
+## Learning Outcomes
+- Practical use of data structures in real applications
+- Understanding of classical encryption techniques
+- File handling and data persistence in C++
+
+---
+
+## Future Improvements
+- Add modern encryption algorithms (AES, RSA)
+- GUI-based interface
+- User authentication system
+- Network-based secure messaging
