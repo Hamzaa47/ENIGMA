@@ -1,5 +1,5 @@
 # ENIGMA
-ENIGMA is a secure messaging system developed as a semester project. It implements multiple classical encryption techniques with support for layered encryption to enhance message security. The system also manages encryption keys dynamically and supports secure file storage for encrypted data. There are 2 roles, a user and an admin, admin can add new organizations to the system, that can use the system.
+ENIGMA is a secure messaging system, a semester project of Data Structures, developed using Object-Oriented Programming. It implements multiple classical encryption techniques with support for layered encryption to enhance message security. The system also manages encryption keys dynamically and supports secure file storage for encrypted data. It includes two roles, user and admin, where the admin can add new organizations that can use the system.
 
 ## Features
 - User and Admin Role
